@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 490,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -115,6 +115,141 @@
               "maxDynamicHeight": 9000,
               "originalBottomRow": 12,
               "minDynamicHeight": 10
+            },
+            {
+              "mobileBottomRow": 32,
+              "widgetName": "CategorySlider1",
+              "displayName": "Category Slider",
+              "iconSVG": "/static/media/icon.cbd0db7a0bd317a6e4cbbd72417f8dee.svg",
+              "labelText": "Size",
+              "searchTags": [
+                "range"
+              ],
+              "topRow": 24,
+              "bottomRow": 32,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "CATEGORY_SLIDER_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 40,
+              "defaultOptionValue": "md",
+              "animateLoading": true,
+              "parentColumnSpace": 13.640625,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "shouldTruncate": false,
+              "labelPosition": "Top",
+              "options": [
+                {
+                  "label": "xs",
+                  "value": "xs"
+                },
+                {
+                  "label": "sm",
+                  "value": "sm"
+                },
+                {
+                  "label": "md",
+                  "value": "md"
+                },
+                {
+                  "label": "lg",
+                  "value": "lg"
+                },
+                {
+                  "label": "xl",
+                  "value": "xl"
+                }
+              ],
+              "isDisabled": false,
+              "key": "robyi8344p",
+              "labelTextSize": "0.875rem",
+              "isDeprecated": false,
+              "rightColumn": 40,
+              "widgetId": "qxm1qod5pc",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "sliderSize": "m",
+              "shouldScroll": false,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 24,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 24,
+              "mobileLeftColumn": 0,
+              "originalBottomRow": 32,
+              "showMarksLabel": true
+            },
+            {
+              "boxShadow": "none",
+              "iconSVG": "/static/media/icon.f312efcb48ce4dafb08c20291635b30b.svg",
+              "topRow": 42,
+              "defaultCurrencyCode": "USD",
+              "labelWidth": 5,
+              "type": "CURRENCY_INPUT_WIDGET",
+              "animateLoading": true,
+              "resetOnSubmit": true,
+              "leftColumn": 27,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelStyle": "",
+              "isDisabled": false,
+              "isRequired": false,
+              "dynamicHeight": "FIXED",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "showStepArrows": false,
+              "isVisible": true,
+              "allowCurrencyChange": false,
+              "version": 1,
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "originalBottomRow": 49,
+              "mobileBottomRow": 49,
+              "widgetName": "CurrencyInput1",
+              "displayName": "Currency Input",
+              "searchTags": [
+                "amount",
+                "total"
+              ],
+              "bottomRow": 49,
+              "parentRowSpace": 10,
+              "autoFocus": false,
+              "hideCard": false,
+              "mobileRightColumn": 47,
+              "parentColumnSpace": 13.640625,
+              "labelPosition": "Top",
+              "key": "b7outlxfpw",
+              "labelTextSize": "0.875rem",
+              "isDeprecated": false,
+              "rightColumn": 47,
+              "widgetId": "f6gsmrn2nu",
+              "minWidth": 450,
+              "label": "Label",
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "mobileTopRow": 42,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 42,
+              "mobileLeftColumn": 27,
+              "maxDynamicHeight": 9000,
+              "decimals": 0,
+              "iconAlign": "left",
+              "defaultText": "",
+              "minDynamicHeight": 4
             }
           ]
         },
